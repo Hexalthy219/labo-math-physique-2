@@ -1,3 +1,8 @@
+# Randaxhe Martin
+# Russe Cyril
+# Van Muysewinkel Kieran
+
+
 import math
 import pygame
 import sys
@@ -71,12 +76,12 @@ def generer_signaux(delta_t):
     if(math.cos(a1) >= 0):
         signe_a1 = 1
     else:
-        signe_a1 = 0
+        signe_a1 = -1
 
     if(math.cos(a2) >= 0):
         signe_a2 = 1
     else:
-        signe_a2 = 0
+        signe_a2 = -1
 
 
     return (AMPL_1 * signe_a1,
